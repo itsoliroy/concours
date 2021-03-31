@@ -39,3 +39,93 @@
 
 /* Mise en page
    ========================================================================== */
+@media(min-width:600px) {
+    .formulaire {
+        width: 250%;
+    }
+}
+
+@media(min-width:600px) {
+    .conteneur {
+        background: white;
+        max-width: 1000px;
+        box-shadow: 2px 5px 15px 5px #000;
+        box-shadow: 2px 10px 40px 5px #000;
+    }
+}
+
+@media (min-width: 600px) {
+    body {
+        background: linear-gradient(turquoise, wheat);
+        font-size: 1.4rem;
+        line-height: 1.375;
+    }
+}
+
+.questiondujour {
+    -webkit-filter: grayscale(100%);
+}
+
+/*  Focus des outlines */
+:focus {
+    outline: #349194 auto 5px;
+}
+
+.formulaire,
+.concours {
+    margin: 1em;
+
+}
+
+.selection {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+}
+
+input {
+    border-radius: 4px;
+}
+
+fieldset {
+    display: block;
+    border-radius: 7px;
+    min-width: 100%;
+    display: inline;
+}
+
+fieldset input,
+select {
+    width: 100%
+}
+
+input[type=radio]:hover+label img {
+    -webkit-filter: grayscale(0%);
+}
+
+input[type=radio]:focus+label img {
+    -webkit-filter: grayscale(0%);
+}
+
+input[type=radio]:checked+label img {
+    -webkit-filter: grayscale(0%);
+    border: 2px solid black;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: teal;
+    text-align: center;
+    line-height: 2;
+}
+
+.soumettre {
+    margin: 1.5em;
+}
+
+footer {
+    text-align: center;
+    padding: 5em;
+}
